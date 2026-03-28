@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzavera Sandefjord - Autentisk Pizza & Fastfood</title>
+    <meta name="description" content="Pizzavera Sandefjord - Din lokale pizzeria med American Pan pizza, kebab og fastfood. Bestill nå!">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>🍕 Pizzavera</h1>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Hjem</a></li>
+                    <li><a href="#menu" class="nav-link">Meny</a></li>
+                    <li><a href="#contact" class="nav-link">Besøk Oss</a></li>
+                    <li><a href="#allergens" class="nav-link">Allergener</a></li>
+                    <li><a href="tel:33452225" class="btn-call">Ring oss</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Autentisk Pizza i Sandefjord</h2>
+                <p class="hero-subtitle">Vi serverer ferske, håndlagde pizzaer med de beste råvarene</p>
+                <div class="hero-buttons">
+                    <a href="tel:33452225" class="btn btn-primary">Bestill Nå</a>
+                    <a href="#menu" class="btn btn-secondary">Se Meny</a>
+                </div>
+                <div class="hero-info">
+                    <div class="info-card">
+                        <span class="icon">🕐</span>
+                        <div>
+                            <strong>Åpningstider</strong>
+                            <p>Man-Lør: 15:00-23:00</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <span class="icon">🚚</span>
+                        <div>
+                            <strong>Hjemlevering</strong>
+                            <p>Levering innen 1 time</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <span class="icon">📍</span>
+                        <div>
+                            <strong>Besøk oss</strong>
+                            <p>Vesterøyveien 25</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vår Meny</h2>
+                <p class="section-subtitle">Utforsk våre deilige retter</p>
+            </div>
+            
+            <div class="menu-notice">
+                <span class="icon">💡</span>
+                <p><strong>Viktig:</strong> Prisene som vises er for medium størrelse. Klikk på rettene for pristillegg for stor pizza, og eventuelle tilvalg.</p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="menu-tab active" data-category="all">Alle</button>
+                <button class="menu-tab" data-category="pizza">Pizza</button>
+                <button class="menu-tab" data-category="kebab">Kebab</button>
+                <button class="menu-tab" data-category="fastfood">Fastfood</button>
+                <button class="menu-tab" data-category="salad">Salater</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be loaded here dynamically -->
+                <div class="menu-item" data-category="pizza">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&h=600&fit=crop&q=80" alt="Pizza" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>American Pan Pizza</h3>
+                        <p>Klassisk amerikansk stil med tykk bunn og generøse pålegg</p>
+                        <div class="menu-item-footer">
+                            <span class="price">Fra 169,-</span>
+                            <button class="btn-order">Bestill</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="kebab">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&h=600&fit=crop&q=80" alt="Kebab" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Kebab</h3>
+                        <p>Saftig kebab med ferske grønnsaker og hjemmelaget saus</p>
+                        <div class="menu-item-footer">
+                            <span class="price">Fra 139,-</span>
+                            <button class="btn-order">Bestill</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="fastfood">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=600&fit=crop&q=80" alt="Burger" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Fastfood</h3>
+                        <p>Hamburgere, pølser og annet godt</p>
+                        <div class="menu-item-footer">
+                            <span class="price">Fra 99,-</span>
+                            <button class="btn-order">Bestill</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="salad">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&h=600&fit=crop&q=80" alt="Salat" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Salater</h3>
+                        <p>Friske salater med deilige dressinger</p>
+                        <div class="menu-item-footer">
+                            <span class="price">Fra 119,-</span>
+                            <button class="btn-order">Bestill</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Checker Section - Compact -->
+    <section class="delivery-checker-compact">
+        <div class="container">
+            <div class="delivery-checker-inline">
+                <div class="delivery-text">
+                    <h4>🗺️ Sjekk leveringsområde</h4>
+                </div>
+                <button id="checkDeliveryBtn" class="btn btn-small">
+                    Sjekk min posisjon
+                </button>
+            </div>
+            <div id="deliveryResult" class="delivery-result hidden"></div>
+            <div id="directionsLink" class="directions-link hidden"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Besøk Oss</h2>
+                <p class="section-subtitle">Velkommen til vår hyggelige restaurant!</p>
+            </div>
+
+            <!-- Restaurant Image -->
+            <div class="restaurant-image-section">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&h=800&fit=crop&q=80" alt="Pizzavera Restaurant" class="restaurant-image" loading="lazy">
+                <div class="restaurant-cta">
+                    <h3>🍕 Spis hos oss eller bestill hjem!</h3>
+                    <p>Opplev den hyggelige atmosfæren i vår restaurant, eller få maten levert rett hjem til deg.</p>
+                    <div class="cta-buttons">
+                        <a href="tel:33452225" class="btn btn-primary">📞 Ring for å bestille</a>
+                        <a href="https://www.google.no/maps/place/Vesterøyveien+25,+3222+Sandefjord" target="_blank" class="btn btn-secondary">📍 Få veibeskrivelse</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3>Utsøkte råvarer</h3>
+                    <p>Vi bruker kun de beste råvarene i våre retter.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍕</div>
+                    <h3>Stort utvalg</h3>
+                    <p>American Pan pizza, Kebab, fastfood og salater.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌾</div>
+                    <h3>Glutenfri pizza</h3>
+                    <p>Våre medium pizzaer kan leveres glutenfrie.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Rask levering</h3>
+                    <p>Levering innen 1 time etter bestilling.</p>
+                </div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Telefon</h3>
+                        <p><a href="tel:33452225">33 45 22 25</a></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Adresse</h3>
+                        <p>Vesterøyveien 25<br>3222 Sandefjord</p>
+                        <a href="https://www.google.no/maps/place/Vesterøyveien+25,+3222+Sandefjord" target="_blank" class="btn-map">Se på kart</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">🕐</div>
+                        <h3>Åpningstider</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Mandag - Lørdag</span>
+                                <strong>15:00 - 23:00</strong>
+                            </div>
+                            <div class="hours-item">
+                                <span>Søndag & Helligdager</span>
+                                <strong>14:00 - 22:00</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">🚚</div>
+                        <h3>Utkjøring</h3>
+                        <p>Pizza leveres innen 1 time etter bestilling. Utkjøring inntil 6 km kr 85,-. Utover dette kommer kr 20,- i tillegg pr km.</p>
+                        <p class="small-text"><strong>Siste frist:</strong> 15 minutter før stengetid</p>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.8637485736557!2d10.232832376890345!3d59.12356679999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646c0830765ada1%3A0x10d710db42345eab!2sVester%C3%B8yveien%2025%2C%203222%20Sandefjord!5e0!3m2!1sen!2sno!4v1709123456789!5m2!1sen!2sno" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Allergens Section -->
+    <section class="allergens" id="allergens">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Allergener</h2>
+                <p class="section-subtitle">Se oversikt over allergener i våre retter</p>
+            </div>
+            
+            <div class="allergen-notice">
+                <span class="icon">⚠️</span>
+                <p>Marker "o" indikerer tilstedeværelse av allergen. Ta kontakt hvis du har spørsmål om allergener.</p>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="allergen-table" id="allergenTable">
+                    <thead>
+                        <tr>
+                            <th>Retter</th>
+                            <th>Gluten/hvete</th>
+                            <th>Skalldyr</th>
+                            <th>Egg</th>
+                            <th>Fisk</th>
+                            <th>Soya</th>
+                            <th>Melk</th>
+                            <th>Selleri</th>
+                            <th>Sennep</th>
+                            <th>Sesamfrø</th>
+                            <th>Bløtdyr</th>
+                        </tr>
+                    </thead>
+                    <tbody id="allergenTableBody">
+                        <!-- Allergen data will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pizzavera Sandefjord</h3>
+                    <p>Din lokale pizzeria siden mange år</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hurtiglenker</h4>
+                    <ul>
+                        <li><a href="#home">Hjem</a></li>
+                        <li><a href="#menu">Meny</a></li>
+                        <li><a href="#contact">Besøk Oss</a></li>
+                        <li><a href="#allergens">Allergener</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>📞 33 45 22 25</p>
+                    <p>📍 Vesterøyveien 25</p>
+                    <p>3222 Sandefjord</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pizzavera Sandefjord. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
