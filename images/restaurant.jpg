@@ -1,0 +1,13 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3142;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f5d75;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad5)"/>
+  <text x="50%" y="40%" text-anchor="middle" fill="white" font-size="100" font-family="Arial, sans-serif" font-weight="bold">🏪</text>
+  <text x="50%" y="55%" text-anchor="middle" fill="white" font-size="50" font-family="Arial, sans-serif" font-weight="bold">Velkommen til Pizzavera</text>
+  <text x="50%" y="65%" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="30" font-family="Arial, sans-serif">Vesterøyveien 25, Sandefjord</text>
+  <text x="50%" y="75%" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="20" font-family="Arial, sans-serif">Legg til bilde av restauranten din her</text>
+</svg>

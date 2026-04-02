@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzavera Sandefjord - Autentisk Pizza & Fastfood</title>
+    <meta name="description" content="Pizzavera Sandefjord - Din lokale pizzeria med American Pan pizza, kebab og fastfood. Bestill nå!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" crossorigin href="/pizzavera/assets/index-B9m_TAgl.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="/"><img src="/pizzavera/pizzavera-logo-800px.webp" alt="Pizzavera" class="logo-image"></a>
+                </div>
+                <div class="mobile-nav-actions">
+                    <a href="tel:33452225" class="mobile-phone-link" aria-label="Ring oss">
+                        📞 <span class="phone-number">33 45 22 25</span>
+                    </a>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Hjem</a></li>
+                    <li><a href="#menu" class="nav-link">Meny</a></li>
+                    <li><a href="#contact" class="nav-link">Besøk Oss</a></li>
+                    <li><a href="#allergens" class="nav-link">Allergener</a></li>
+                    <li><a href="tel:33452225" class="btn-call">📞 33 45 22 25</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vår Meny</h2>
+                <p class="section-subtitle">Utforsk våre deilige retter</p>
+            </div>
+
+            <div class="menu-categories" id="menuCategories">
+                <button class="menu-tab" data-category="all">Alle</button>
+                <button class="menu-tab active" data-category="top3">Topp 3</button>
+                <button class="menu-tab" data-category="pizza">Pizza</button>
+                <button class="menu-tab" data-category="kebab">Kebab</button>
+                <button class="menu-tab" data-category="fastfood">Fastfood</button>
+                <button class="menu-tab" data-category="salad">Salater</button>
+                <button class="menu-tab" data-category="drinks">Drikke</button>
+            </div>
+            <div id="menuCategoriesSpacer"></div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items loaded dynamically from menu_data.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Besøk Oss</h2>
+                <p class="section-subtitle">Velkommen til vår hyggelige restaurant!</p>
+            </div>
+
+            <!-- Restaurant Image -->
+            <div class="restaurant-image-section">
+                <img src="/pizzavera/inne 2.webp" alt="Pizzavera Restaurant" class="restaurant-image" loading="lazy">
+                <div class="restaurant-cta">
+                    <h3>🍕 Spis hos oss eller bestill hjem!</h3>
+                    <p>Opplev den hyggelige atmosfæren i vår restaurant, eller få maten levert rett hjem til deg.</p>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="map-section">
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.8637485736557!2d10.232832376890345!3d59.12356679999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646c0830765ada1%3A0x10d710db42345eab!2sVester%C3%B8yveien%2025%2C%203222%20Sandefjord!5e0!3m2!1sen!2sno!4v1709123456789!5m2!1sen!2sno" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="map-directions-button">
+                    <a href="https://www.google.no/maps/place/Vesterøyveien+25,+3222+Sandefjord" target="_blank" class="btn btn-directions-map">
+                        📍 Åpne veibeskrivelse i Google Maps
+                    </a>
+                    <div class="delivery-info-text">
+                        <p><strong>🚚 Utkjøring:</strong> Pizza leveres innen 1 time etter bestilling. Utkjøring inntil 6 km kr 85,-. Utover dette kommer kr 20,- i tillegg pr km. <em>Siste frist: 15 minutter før stengetid</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Allergens Section -->
+    <section class="allergens" id="allergens">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Allergener</h2>
+                <p class="section-subtitle">Se oversikt over allergener i våre retter</p>
+            </div>
+            
+            <div class="allergen-notice">
+                <span class="icon">⚠️</span>
+                <p>Marker "o" indikerer tilstedeværelse av allergen. Ta kontakt hvis du har spørsmål om allergener.</p>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="allergen-table" id="allergenTable">
+                    <thead>
+                        <tr>
+                            <th>Retter</th>
+                            <th>Gluten/hvete</th>
+                            <th>Skalldyr</th>
+                            <th>Egg</th>
+                            <th>Fisk</th>
+                            <th>Soya</th>
+                            <th>Melk</th>
+                            <th>Selleri</th>
+                            <th>Sennep</th>
+                            <th>Sesamfrø</th>
+                            <th>Bløtdyr</th>
+                        </tr>
+                    </thead>
+                    <tbody id="allergenTableBody">
+                        <!-- Allergen data will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pizzavera Sandefjord</h3>
+                    <p>Din lokale pizzeria siden mange år</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hurtiglenker</h4>
+                    <ul>
+                        <li><a href="#home">Hjem</a></li>
+                        <li><a href="#menu">Meny</a></li>
+                        <li><a href="#contact">Besøk Oss</a></li>
+                        <li><a href="#allergens">Allergener</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>📞 33 45 22 25</p>
+                    <p>📍 Vesterøyveien 25</p>
+                    <p>3222 Sandefjord</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pizzavera Sandefjord. Alle rettigheter reservert.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
