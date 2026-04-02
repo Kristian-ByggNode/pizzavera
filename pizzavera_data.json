@@ -1,0 +1,379 @@
+{
+  "restaurant": {
+    "name": "Pizzavera Sandefjord",
+    "phone": "33 45 22 25",
+    "address": "AdresseVesterøyveien 25, 3222 Sandefjord",
+    "opening_hours": {},
+    "delivery_info": "",
+    "last_order": ""
+  },
+  "menu": {
+    "categories": [
+      {
+        "name": "Telefon",
+        "items": [
+          "33 45 22 25"
+        ]
+      },
+      {
+        "name": "Åpningstider",
+        "items": [
+          "Mandag – lørdag: 15.00 – 23.00Søndag og helligdager: 14.00 – 22.00"
+        ]
+      },
+      {
+        "name": "Adresse",
+        "items": [
+          "Vesterøyveien 25, 3222 Sandefjord"
+        ]
+      },
+      {
+        "name": "Utsøkte råvarer",
+        "items": [
+          "Vi er opptatt av å benytte de beste råvarene i våre retter."
+        ]
+      },
+      {
+        "name": "Stort utvalg",
+        "items": [
+          "Vi leverer et stort utvalg American Pan pizza, Kebab, fastfood og salater."
+        ]
+      },
+      {
+        "name": "Glutenfri pizza",
+        "items": [
+          "Våre medium store American Pan pizza kan leveres glutenfrie."
+        ]
+      },
+      {
+        "name": "Avdeling Solvang",
+        "items": [
+          "Vår avdeling på Solvang er stengt/avviklet. Nærmeste avdeling er på Tolvsrød (Gauterød), så bestill gjerne maten du ønsker der."
+        ]
+      },
+      {
+        "name": "Viktig – Vedrørende priser",
+        "items": [
+          "Prisene i menyen som vises for American Pan Pizza er for medium størrelse.Klikk på rettene for pristillegg for stor pizza, og evt. tilvalg, ekstra kjøtt og grønnsaker."
+        ]
+      }
+    ]
+  },
+  "allergens": [
+    {
+      "dish": "Hvit saus",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Remulade",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "o",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "o",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Bernaisesaus",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "o",
+        "Fisk": "",
+        "Soya": "o",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "o",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Wienertoast",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "o",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Pinnepølse",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Pølse med brød",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Wienerpølse",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Pølsebrød",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Hamburgerbrød",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "o",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Pitabrød",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Bekledd kylling",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Ost",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Salami",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "o",
+        "Selleri": "",
+        "Sennep": "o",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Kebab kylling",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "o",
+        "Sennep": "o",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Kebab svinenakke",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "o",
+        "Sennep": "o",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Marinert rundbiff",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "o",
+        "Sennep": "o",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Pizzabunn Amerikansk",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Pizzabunn Italiensk",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Tunfisk",
+      "allergens": {
+        "Gluten/hvete": "",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "o",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Reker",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": ""
+      }
+    },
+    {
+      "dish": "Blåskjell",
+      "allergens": {
+        "Gluten/hvete": "o",
+        "Skalldyr": "",
+        "Egg": "",
+        "Fisk": "",
+        "Soya": "",
+        "Melk": "",
+        "Selleri": "",
+        "Sennep": "",
+        "Sesamfrø": "",
+        "Bløtdyr": "o"
+      }
+    }
+  ]
+}
