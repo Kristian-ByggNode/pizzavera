@@ -112,7 +112,7 @@ const categoryImages = {
 // Load menu data and create menu items
 async function loadMenuData() {
     try {
-        const response = await fetch('./menu_data.json');
+        const response = await fetch('menu_data.json');
         const data = await response.json();
         
         // Combine all menu items into single array
@@ -273,7 +273,7 @@ function attachOrderButtonListeners() {
 
 async function loadAllergenData() {
     try {
-        const response = await fetch('./pizzavera_data.json');
+        const response = await fetch('pizzavera_data.json');
         const data = await response.json();
         
         const tableBody = document.getElementById('allergenTableBody');
